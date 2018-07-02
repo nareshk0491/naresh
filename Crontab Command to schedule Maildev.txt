@@ -1,0 +1,4 @@
+*/30 * * * * CronScript.sh
+
+#The above command makes sure script will run every 30 mins and will check whether maildev is up and running.
+#if maildev is down, then maildev will be started
