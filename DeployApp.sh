@@ -4,8 +4,6 @@
 
 node --version 2> /dev/null
 
-echo $?
-
 if [ $? -eq 0 ]
 then
 	echo "NodeJs is already installed in the machine"

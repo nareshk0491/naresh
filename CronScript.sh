@@ -4,7 +4,7 @@
 
 ps -ef | grep -v grep | grep maildev 2> /dev/null
 
-if [ $? -eq 0 ]
+if [ $? -ne 0 ]
 then
 	echo "starting Maildev"
 	maildev
